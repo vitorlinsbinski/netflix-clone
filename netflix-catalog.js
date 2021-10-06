@@ -10,18 +10,22 @@ var swiper = new Swiper(".mySwiper", {
         640: {
           slidesPerView: 2,
           spaceBetween: 10,
+          slidesPerGroup: 3,
         },
         768: {
           slidesPerView: 2,
           spaceBetween: 10,
+          slidesPerGroup: 2,
         },
         1024: {
           slidesPerView: 5,
           spaceBetween: 10,
+          slidesPerGroup: 4,
         },
         200: {
             slidesPerView: 1,
             spaceBetween: 10,
+            slidesPerGroup: 1,
           },
       }
   });
