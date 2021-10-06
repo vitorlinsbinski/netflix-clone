@@ -144,3 +144,17 @@ body {
         margin-left: 1rem;
     }
 }
+
+
+@media (max-width:570px) {
+    .logo ul {
+        display: none;
+        
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
