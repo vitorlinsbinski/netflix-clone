@@ -137,3 +137,10 @@ body {
 .logo ul li:hover {
     color: white;
 }
+
+
+@media (max-width:620px) {
+    .logo, .netflix {
+        margin-left: 1rem;
+    }
+}
