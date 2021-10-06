@@ -140,8 +140,12 @@ body {
 
 
 @media (max-width:620px) {
-    .logo, .netflix {
-        margin-left: 1rem;
+    .netflix {
+        margin-left: 1.2rem;
+    }
+
+    .logo {
+        margin: 0;
     }
 }
 
